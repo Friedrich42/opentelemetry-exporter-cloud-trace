@@ -23,4 +23,4 @@ PACKAGE_INFO = {}
 with open(VERSION_FILENAME) as f:
     exec(f.read(), PACKAGE_INFO)
 
-setuptools.setup(version=PACKAGE_INFO["__version__"])
+setuptools.setup(name="opentelemetry-exporter-cloud-trace", version=PACKAGE_INFO["__version__"])
