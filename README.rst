@@ -8,7 +8,9 @@ Installation
 
 ::
 
-    pip install opentelemetry-exporter-cloud-trace
+    pip install opentelemetry-exporter-cloud-trace  
+    or  
+    pipenv install -e git+https://github.com/Friedrich42/opentelemetry-exporter-cloud-trace.git#egg=opentelemetry-exporter-cloud-trace  
 
 Usage
 -----
